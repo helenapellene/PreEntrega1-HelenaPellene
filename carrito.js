@@ -4,7 +4,7 @@ let pant = 0;
 let acc = 0;
 
 while (true) {
-    let comando = prompt("-1) PRODUCTOS DISPONIBLES\n-2) METODOS DE PAGO\n-3) VER CARRITO\n-4) SALIR");
+    let comando = prompt("-1) PRODUCTOS DISPONIBLES\n-2) METODOS DE PAGO\n-3) VER CARRITO\n-0) SALIR");
 
     if (comando === "salir") {
         break;
@@ -59,6 +59,6 @@ while (true) {
             alert(`Productos agregados al carrito:\n${rem} Remeras\n${pant} Pantalones\n${acc} Accesorios`);
         }
     } else {
-        alert("Este comando no existe");
+        alert("Has salido del menu");
     }
 }
